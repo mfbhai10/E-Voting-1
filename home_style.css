@@ -1,0 +1,262 @@
+/* Global Styles */
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #f4f4f9;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #333;
+  color: white;
+}
+
+.navbar .logo-container {
+  flex: 1;
+}
+
+.navbar .logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.navbar-links ul {
+  display: flex;
+  list-style: none;
+}
+
+.navbar-links ul li {
+  margin-left: 20px;
+}
+
+.navbar-links a {
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.navbar-links .profile-icon img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+/* Welcome Section */
+.welcome {
+  padding: 40px 20px;
+  text-align: center;
+  background-color: #fff;
+}
+
+.welcome h2 {
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.welcome p {
+  font-size: 24px;
+  margin-top: 10px;
+  color: #666;
+}
+
+/* Elections Section */
+.elections {
+  padding: 40px 20px;
+  background-color: #fff;
+}
+
+.elections .on {
+  font-size: 32px;
+  font-weight: 700;
+  margin: 60px;
+  color: #333;
+}
+.elections .up {
+  font-size: 32px;
+  font-weight: 700;
+  margin: 60px;
+  color: #333;
+}
+
+.election-list {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.election-item {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  width: 45%;
+  box-sizing: border-box;
+  text-align: center;
+  overflow: hidden;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.election-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+.election-item h4 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #333;
+}
+
+.election-item p {
+  font-size: 16px;
+  color: #777;
+}
+
+.cta-btn {
+  display: inline-block;
+  margin-top: 10px;
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-weight: 600;
+  transition: background-color 0.3s;
+}
+
+.cta-btn:hover {
+  background-color: #0056b3;
+}
+
+/* 3D_Card styles */
+.parent {
+  width: 700px;
+  margin: 0 auto;
+  perspective: 1000px;
+}
+
+.card {
+  padding-top: 50px;
+  /* border-radius: 10px; */
+  border: 3px solid rgb(255, 255, 255);
+  transform-style: preserve-3d;
+  background: linear-gradient(135deg, #0000 18.75%, #f3f3f3 0 31.25%, #0000 0),
+    repeating-linear-gradient(45deg, #f3f3f3 -6.25% 6.25%, #ffffff 0 18.75%);
+  background-size: 60px 60px;
+  background-position: 0 0, 0 0;
+  background-color: #f0f0f0;
+  width: 100%;
+  box-shadow: rgba(142, 142, 142, 0.3) 0px 30px 30px -10px;
+  transition: all 0.5s ease-in-out;
+}
+
+.card:hover {
+  background-position: -100px 100px, -100px 100px;
+  transform: rotate3d(0.5, 1, 0, 30deg);
+}
+
+.content-box {
+  background: rgba(4, 193, 250, 0.732);
+  /* border-radius: 10px 100px 10px 10px; */
+  transition: all 0.5s ease-in-out;
+  padding: 60px 25px 25px 25px;
+  transform-style: preserve-3d;
+}
+
+.content-box .card-title {
+  display: inline-block;
+  color: white;
+  font-size: 50px;
+  font-weight: 900;
+  transition: all 0.5s ease-in-out;
+  transform: translate3d(0px, 0px, 50px);
+}
+
+.content-box .card-title:hover {
+  transform: translate3d(0px, 0px, 60px);
+}
+
+.content-box .card-content {
+  margin-top: 10px;
+  font-size: 25px;
+  font-weight: 700;
+  color: #f2f2f2;
+  transition: all 0.5s ease-in-out;
+  transform: translate3d(0px, 0px, 30px);
+}
+
+.content-box .card-content:hover {
+  transform: translate3d(0px, 0px, 60px);
+}
+
+.content-box .see-more {
+  cursor: pointer;
+  margin-top: 1rem;
+  display: inline-block;
+  font-weight: 900;
+  font-size: 25px;
+  text-transform: uppercase;
+  color: rgb(7, 185, 255);
+  /* border-radius: 5px; */
+  background: white;
+  padding: 0.5rem 0.7rem;
+  transition: all 0.5s ease-in-out;
+  transform: translate3d(0px, 0px, 20px);
+  border: none;
+}
+
+.content-box .see-more:hover {
+  transform: translate3d(0px, 0px, 60px);
+  border: none;
+  color: #cc9010d4;
+}
+
+.logo-box {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  height: 60px;
+  width: 60px;
+  background: white;
+  border: 1px solid rgb(7, 185, 255);
+  padding: 10px;
+  transform: translate3d(0px, 0px, 80px);
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 17px 10px -10px;
+}
+
+.logo-box img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #333;
+  color: white;
+  margin-top: 40px;
+}
