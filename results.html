@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Election Results</title>
+    <link rel="stylesheet" href="result_style.css" />
+    <script src="script.js" defer></script>
+  </head>
+
+  <body>
+    <header class="header">
+      <nav>
+        <div class="logo" onclick="redirectToStart()">UniVote</div>
+        <div class="menu">
+          <a href="#" onclick="redirectToHome()">Home</a>
+          <a href="#" onclick="redirectToHome()">Elections</a>
+          <a href="#">Results</a>
+          <a href="#">Profile</a>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="results">
+        <h1>Student Body President Election Results</h1>
+        <div class="vote-distribution">
+          <div class="vote-bar">
+            <div class="vote-bar-inner" style="width: 50%"></div>
+            <span>Candidate A</span>
+          </div>
+          <div class="vote-bar">
+            <div class="vote-bar-inner" style="width: 45%"></div>
+            <span>Candidate B</span>
+          </div>
+          <div class="vote-bar">
+            <div class="vote-bar-inner" style="width: 40%"></div>
+            <span>Candidate C</span>
+          </div>
+        </div>
+
+        <section class="candidate-results">
+          <h2>Candidate Results</h2>
+          <div class="candidate">
+            <img src="images/hero-image.jpg" alt="Candidate A" />
+            <div class="candidate-info">
+              <h3>Candidate A</h3>
+              <p>1250 votes</p>
+            </div>
+          </div>
+
+          <div class="candidate">
+            <img src="images/hero-image.jpg" alt="Candidate B" />
+            <div class="candidate-info">
+              <h3>Candidate B</h3>
+              <p>1100 votes</p>
+            </div>
+          </div>
+
+          <div class="candidate">
+            <img src="images/hero-image.jpg" alt="Candidate C" />
+            <div class="candidate-info">
+              <h3>Candidate C</h3>
+              <p>950 votes</p>
+            </div>
+          </div>
+        </section>
+      </section>
+    </main>
+  </body>
+</html>

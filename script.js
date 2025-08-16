@@ -10,3 +10,9 @@ function redirectToHome() {
 function redirectToVoting() {
   window.location.href = "voting_page.html";
 }
+function redirectToThanks() {
+  window.location.href = "thanks.html";
+}
+function redirectToResult() {
+  window.location.href = "results.html";
+}

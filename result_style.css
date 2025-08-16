@@ -1,0 +1,140 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Arial", sans-serif;
+}
+
+/* Header Styling */
+.header {
+  background-color: #222d32;
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.header .logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.header .menu a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 15px;
+  font-size: 16px;
+}
+
+.header .menu a:hover {
+  text-decoration: underline;
+}
+
+/* Main Content */
+main {
+  padding: 40px 0;
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* Election Results Section */
+.results {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.results h1 {
+  font-size: 32px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.vote-distribution {
+  margin: 30px 0;
+}
+
+.vote-bar {
+  background-color: #e0e0e0;
+  border-radius: 5px;
+  margin: 10px 0;
+  height: 25px;
+  position: relative;
+}
+
+.vote-bar-inner {
+  height: 100%;
+  background-color: royalblue;
+  border-radius: 5px;
+  position: absolute;
+}
+
+.vote-bar span {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 16px;
+  color: white;
+  font-weight: bold;
+}
+
+/* Candidate Results Section */
+.candidate-results {
+  margin-top: 30px;
+  text-align: left;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.candidate-results h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #333;
+  text-align: center;
+}
+
+.candidate {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.candidate img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.candidate-info h3 {
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+.candidate-info p {
+  font-size: 18px;
+  color: #555;
+}
+
+/* Button Styling (optional for additional features) */
+button {
+  padding: 10px 20px;
+  background-color: royalblue;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #3c8dbc;
+}

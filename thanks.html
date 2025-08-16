@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Thank You for Voting</title>
+    <link rel="stylesheet" href="thanks_style.css" />
+    <script src="script.js" defer></script>
+  </head>
+
+  <body>
+    <header class="header">
+      <nav>
+        <div class="logo">UniVote</div>
+        <div class="menu">
+          <a href="#" onclick="redirectToHome()">Home</a>
+          <a href="#" onclick="redirectToHome()">Elections</a>
+          <a href="#">Results</a>
+          <a href="#">Profile</a>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="thank-you">
+        <h1>Thank you for voting!</h1>
+        <p>
+          Your vote has been successfully submitted. You can view the election
+          details and your vote summary below.
+        </p>
+      </section>
+
+      <section class="vote-summary">
+        <h2>Election: Student Government President</h2>
+        <table>
+          <tr>
+            <th>Candidate</th>
+            <th>Party</th>
+          </tr>
+          <tr>
+            <td>Sarah Chen</td>
+            <td>Students First</td>
+          </tr>
+        </table>
+      </section>
+
+      <div class="return-button">
+        <a href="#" class="btn" onclick="redirectToResult()"
+          >Return to Dashboard</a
+        >
+      </div>
+    </main>
+  </body>
+</html>

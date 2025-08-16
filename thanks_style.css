@@ -1,0 +1,126 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* Header Styling */
+.header {
+  background-color: #222d32;
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.header .logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.header .menu a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 15px;
+  font-size: 16px;
+}
+
+.header .menu a:hover {
+  text-decoration: underline;
+}
+
+/* Main Content */
+main {
+  padding: 40px 0;
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* Thank You Section */
+.thank-you {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.thank-you h1 {
+  font-size: 32px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.thank-you p {
+  font-size: 18px;
+  color: #555;
+  line-height: 1.5;
+}
+
+/* Vote Summary */
+.vote-summary {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.vote-summary h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+table {
+  width: 100%;
+  margin: 20px 0;
+  border-collapse: collapse;
+}
+
+table,
+th,
+td {
+  border: 1px solid #ddd;
+}
+
+th,
+td {
+  padding: 10px;
+  text-align: left;
+  font-size: 16px;
+}
+
+th {
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+td {
+  background-color: #f9f9f9;
+  color: #666;
+}
+
+/* Return Button */
+.return-button {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.btn {
+  background-color: royalblue;
+  color: #fff;
+  padding: 10px 20px;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 16px;
+  display: inline-block;
+}
+
+.btn:hover {
+  background-color: #3c8dbc;
+}
