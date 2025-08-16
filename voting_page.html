@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>UniVote - Election</title>
+    <link rel="stylesheet" href="voting_style.css" />
+    <script src="script.js" defer></script>
+  </head>
+
+  <body>
+    <header class="header">
+      <nav>
+        <div class="logo" onclick="redirectToStart()">E-Voting</div>
+        <div class="menu">
+          <a href="#" onclick="redirectToHome()">Home</a>
+          <a href="#" onclick="redirectToHome()">Elections</a>
+          <a href="#">Results</a>
+          <a href="#">Profile</a>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="election-info">
+        <h1>Student Government Election</h1>
+        <p>
+          Vote for your representatives in the Student Government. This election
+          will determine the leadership for the upcoming academic year. Your
+          participation is crucial in shaping the future of our university
+          community.
+        </p>
+      </section>
+
+      <section class="candidates">
+        <h2>Candidates</h2>
+
+        <div class="candidate">
+          <img src="images/hero-image.jpg" alt="Candidate Image" />
+          <div class="candidate-info">
+            <h3>Sarah Chen</h3>
+            <p>
+              Junior, majoring in Political Science. Passionate about student
+              advocacy and creating a more inclusive campus environment.
+            </p>
+            <button class="vote-button">Vote</button>
+          </div>
+        </div>
+
+        <div class="candidate">
+          <img src="images/hero-image.jpg" alt="Candidate Image" />
+          <div class="candidate-info">
+            <h3>David Ramirez</h3>
+            <p>
+              Senior, studying Computer Science. Committed to improving campus
+              technology and ensuring equal access to resources for all
+              students.
+            </p>
+            <button class="vote-button">Vote</button>
+          </div>
+        </div>
+
+        <div class="candidate">
+          <img src="./images/hero-image.jpg" alt="Candidate Image" />
+          <div class="candidate-info">
+            <h3>Emily Carter</h3>
+            <p>
+              Sophomore, majoring in Environmental Studies. Dedicated to
+              promoting sustainability initiatives and fostering a greener
+              campus.
+            </p>
+            <button class="vote-button">Vote</button>
+          </div>
+        </div>
+      </section>
+
+      <div class="voted-message">
+        <p>You have ????? voted in this election.</p>
+      </div>
+    </main>
+  </body>
+</html>

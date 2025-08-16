@@ -7,3 +7,6 @@ function redirectToStart() {
 function redirectToHome() {
   window.location.href = "home.html";
 }
+function redirectToVoting() {
+  window.location.href = "voting_page.html";
+}
